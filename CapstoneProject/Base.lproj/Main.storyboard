@@ -50,7 +50,7 @@
                                 </state>
                                 <connections>
                                     <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G8k-F9-6cm"/>
-                                    <segue destination="2Io-nx-gto" kind="presentation" id="TdE-TA-vTZ"/>
+                                    <segue destination="vGD-Bg-ymm" kind="show" id="BMg-z5-wkQ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--- OR ---" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZD-kP-e5u">
@@ -194,9 +194,6 @@
                                         <state key="normal" title="Register">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="2Io-nx-gto" kind="presentation" id="Ryt-lW-wFS"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -258,10 +255,10 @@
             </objects>
             <point key="canvasLocation" x="-143" y="898"/>
         </scene>
-        <!--documentTab-->
+        <!--shareTab-->
         <scene sceneID="HZO-c4-uXx">
             <objects>
-                <viewController storyboardIdentifier="documentTab" title="documentTab" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2Io-nx-gto" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="documentTab" title="shareTab" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2Io-nx-gto" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6IR-rf-tww"/>
                         <viewControllerLayoutGuide type="bottom" id="3LW-a9-7qN"/>
@@ -286,8 +283,77 @@
                                     <tabBarItem title="sync" image="Clouds-50.png" id="2BK-1B-flV"/>
                                 </items>
                             </tabBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5vS-BJ-TUj">
+                                <frame key="frameInset" minY="28" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Share" id="aOH-dB-JXs">
+                                        <barButtonItem key="leftBarButtonItem" image="Settings Filled-50.png" id="DKS-TU-ydl"/>
+                                        <barButtonItem key="rightBarButtonItem" image="Circled User Male Filled-50.png" id="nRw-tL-Da0">
+                                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-5"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Share" image="Share-35.png" id="rec-bs-1js">
+                        <inset key="imageInsets" minX="1" minY="1" maxX="1" maxY="1"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="736"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y63-Yo-JEx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1706" y="156"/>
+        </scene>
+        <!--documentsTab-->
+        <scene sceneID="pUg-7J-gZa">
+            <objects>
+                <viewController title="documentsTab" id="LAS-yd-7Jf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f7H-aS-mWH"/>
+                        <viewControllerLayoutGuide type="bottom" id="App-q5-Xaf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mPC-WY-CUz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="New Document" image="Screenshot-40.png" id="tFQ-xI-tDm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z2k-6x-Jc2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="1649"/>
+        </scene>
+        <!--cameraTab-->
+        <scene sceneID="O6A-KH-pTI">
+            <objects>
+                <viewController title="cameraTab" id="C1k-2P-y0g" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qCB-TE-teU"/>
+                        <viewControllerLayoutGuide type="bottom" id="dZ1-YX-jwc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i0c-GI-oAt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PWl-bg-FpF">
+                                <frame key="frameInset" minY="28" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Documents" id="HUw-KA-yU0">
+                                        <barButtonItem key="leftBarButtonItem" image="Settings Filled-50.png" id="9kZ-fg-O6U"/>
+                                        <barButtonItem key="rightBarButtonItem" image="Circled User Male Filled-50.png" id="M1T-V6-Js9">
+                                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-5"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jIh-2o-ycp">
-                                <frame key="frameInset" minX="20" minY="81" width="374" height="584"/>
+                                <frame key="frameInset" minY="83" width="374" height="584"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Open Folder-96.png" translatesAutoresizingMaskIntoConstraints="NO" id="nBg-VF-a7U">
@@ -351,65 +417,14 @@
                                     </label>
                                 </subviews>
                             </scrollView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5vS-BJ-TUj">
-                                <frame key="frameInset" minY="28" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Documents" id="aOH-dB-JXs">
-                                        <barButtonItem key="leftBarButtonItem" image="Settings Filled-50.png" id="DKS-TU-ydl"/>
-                                        <barButtonItem key="rightBarButtonItem" image="Circled User Male Filled-50.png" id="nRw-tL-Da0">
-                                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-5"/>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="414" height="736"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y63-Yo-JEx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="738" y="67"/>
-        </scene>
-        <!--Item 2-->
-        <scene sceneID="pUg-7J-gZa">
-            <objects>
-                <viewController id="LAS-yd-7Jf" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="f7H-aS-mWH"/>
-                        <viewControllerLayoutGuide type="bottom" id="App-q5-Xaf"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="mPC-WY-CUz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="tFQ-xI-tDm"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Z2k-6x-Jc2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1618" y="1225"/>
-        </scene>
-        <!--Item 1-->
-        <scene sceneID="O6A-KH-pTI">
-            <objects>
-                <viewController id="C1k-2P-y0g" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qCB-TE-teU"/>
-                        <viewControllerLayoutGuide type="bottom" id="dZ1-YX-jwc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="i0c-GI-oAt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="vct-He-rr9"/>
+                    <tabBarItem key="tabBarItem" title="Folders" image="Add Folder-40.png" id="vct-He-rr9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Sd-FC-3bN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1618" y="570"/>
+            <point key="canvasLocation" x="-92" y="1648"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="UsC-8X-y4X">
@@ -423,11 +438,65 @@
                     <connections>
                         <segue destination="C1k-2P-y0g" kind="relationship" relationship="viewControllers" id="b2t-Uo-iPW"/>
                         <segue destination="LAS-yd-7Jf" kind="relationship" relationship="viewControllers" id="4jM-HX-cJk"/>
+                        <segue destination="2Io-nx-gto" kind="relationship" relationship="viewControllers" id="d6o-DY-eJs"/>
+                        <segue destination="Jyh-8k-nEt" kind="relationship" relationship="viewControllers" id="ZIA-ob-eS8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hBs-EQ-FIr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="663" y="898"/>
+        </scene>
+        <!--cloudTab-->
+        <scene sceneID="DjV-a8-mXg">
+            <objects>
+                <viewController storyboardIdentifier="cloudTab" title="cloudTab" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Jyh-8k-nEt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="560-1Y-B1D"/>
+                        <viewControllerLayoutGuide type="bottom" id="GbW-dl-vRS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mWH-gH-FCu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lvf-ee-Hom">
+                                <frame key="frameInset" height="49" maxY="1"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <rect key="contentStretch" x="0.34999999999999998" y="0.20000000000000001" width="0.94999999999999996" height="1"/>
+                                <items>
+                                    <tabBarItem title="Folders" image="Add Folder-40.png" id="X0V-QL-Wyw">
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="New Document" image="Screenshot-40.png" id="cbG-pi-W1K"/>
+                                    <tabBarItem title="share" image="Share-35.png" id="SmP-iM-4dg">
+                                        <inset key="imageInsets" minX="1" minY="1" maxX="1" maxY="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="sync" image="Clouds-50.png" id="dAT-so-cHP"/>
+                                </items>
+                            </tabBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tNB-sl-bbZ">
+                                <frame key="frameInset" minY="28" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Cloud" id="dAn-TB-rv3">
+                                        <barButtonItem key="leftBarButtonItem" image="Settings Filled-50.png" id="YvE-sI-SB6"/>
+                                        <barButtonItem key="rightBarButtonItem" image="Circled User Male Filled-50.png" id="Gem-aZ-9hd">
+                                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-5"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cloud" image="Clouds-50.png" id="HKK-Ce-kfK"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="736"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uOR-Ri-Arn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1707" y="928"/>
         </scene>
     </scenes>
     <resources>
@@ -443,7 +512,4 @@
         <image name="loginfb.png" width="713" height="151"/>
         <image name="projectwrite.png" width="488" height="225"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="TdE-TA-vTZ"/>
-    </inferredMetricsTieBreakers>
 </document>
