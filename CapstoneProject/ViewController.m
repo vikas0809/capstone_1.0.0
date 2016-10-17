@@ -20,7 +20,7 @@
     
     //obscure password field
     _passwordField.secureTextEntry = YES;
-}
+    }
 
 - (IBAction)login:(id)sender {
     if([_emailField.text isEqualToString:@""] || [_passwordField.text isEqualToString:@""])
