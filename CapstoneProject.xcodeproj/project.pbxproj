@@ -16,6 +16,10 @@
 		3F29AEE61DB014AA00FD906F /* CapstoneProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F29AEE51DB014AA00FD906F /* CapstoneProjectTests.m */; };
 		3F29AEF11DB014AB00FD906F /* CapstoneProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F29AEF01DB014AB00FD906F /* CapstoneProjectUITests.m */; };
 		3F673F011DB66D6B0073F0EC /* notebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F673F001DB66D6B0073F0EC /* notebook.png */; };
+		3F673F031DB670100073F0EC /* user_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F673F021DB670100073F0EC /* user_icon.png */; };
+		3F673F051DB671AD0073F0EC /* add-document.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F673F041DB671AD0073F0EC /* add-document.png */; };
+		3F673F071DB67DA20073F0EC /* login-google.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F673F061DB67DA20073F0EC /* login-google.png */; };
+		3F673F091DB67EFD0073F0EC /* plain background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F673F081DB67EFD0073F0EC /* plain background.jpg */; };
 		3FC3F0A81DB4464200796CF7 /* Circled User Male Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0A71DB4464200796CF7 /* Circled User Male Filled-50.png */; };
 		3FC3F0AD1DB447FC00796CF7 /* Clouds-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0A91DB447FC00796CF7 /* Clouds-50.png */; };
 		3FC3F0AE1DB447FC00796CF7 /* Download From Cloud-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */; };
@@ -72,6 +76,10 @@
 		3F29AEF01DB014AB00FD906F /* CapstoneProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapstoneProjectUITests.m; sourceTree = "<group>"; };
 		3F29AEF21DB014AB00FD906F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F673F001DB66D6B0073F0EC /* notebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notebook.png; path = images/notebook.png; sourceTree = SOURCE_ROOT; };
+		3F673F021DB670100073F0EC /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_icon.png; path = images/user_icon.png; sourceTree = SOURCE_ROOT; };
+		3F673F041DB671AD0073F0EC /* add-document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-document.png"; path = "images/add-document.png"; sourceTree = SOURCE_ROOT; };
+		3F673F061DB67DA20073F0EC /* login-google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login-google.png"; path = "images/login-google.png"; sourceTree = SOURCE_ROOT; };
+		3F673F081DB67EFD0073F0EC /* plain background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "plain background.jpg"; path = "images/plain background.jpg"; sourceTree = SOURCE_ROOT; };
 		3FC3F0A71DB4464200796CF7 /* Circled User Male Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Circled User Male Filled-50.png"; path = "../../../Downloads/Circled User Male Filled-50.png"; sourceTree = "<group>"; };
 		3FC3F0A91DB447FC00796CF7 /* Clouds-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Clouds-50.png"; path = "../../../Downloads/Clouds-50.png"; sourceTree = "<group>"; };
 		3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Download From Cloud-50.png"; path = "../../../Downloads/Download From Cloud-50.png"; sourceTree = "<group>"; };
@@ -162,11 +170,15 @@
 				3FC3F0C31DB4515E00796CF7 /* Add Folder-40.png */,
 				3F673F001DB66D6B0073F0EC /* notebook.png */,
 				3FC3F0BD1DB44E0A00796CF7 /* Folder-96.png */,
+				3F673F041DB671AD0073F0EC /* add-document.png */,
 				3FC3F0BE1DB44E0A00796CF7 /* Open Folder-96.png */,
+				3F673F021DB670100073F0EC /* user_icon.png */,
 				3FC3F0BF1DB44E0A00796CF7 /* Pictures Folder-96.png */,
 				3FC3F0B71DB44BF200796CF7 /* Add Folder-48.png */,
 				3FC3F0B91DB44BF200796CF7 /* Add Folder-96.png */,
 				3FC3F0A91DB447FC00796CF7 /* Clouds-50.png */,
+				3F673F061DB67DA20073F0EC /* login-google.png */,
+				3F673F081DB67EFD0073F0EC /* plain background.jpg */,
 				3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */,
 				3FC3F0AB1DB447FC00796CF7 /* Settings Filled-50.png */,
 				3FC3F0AC1DB447FC00796CF7 /* Upload to Cloud-50.png */,
@@ -315,12 +327,16 @@
 				3FC3F0BC1DB44BF200796CF7 /* Add Folder-96.png in Resources */,
 				3FC3F0C21DB44E0A00796CF7 /* Pictures Folder-96.png in Resources */,
 				3FC3F0C71DB4521600796CF7 /* Screenshot-40.png in Resources */,
+				3F673F091DB67EFD0073F0EC /* plain background.jpg in Resources */,
 				3F29AED81DB014AA00FD906F /* Assets.xcassets in Resources */,
 				3FC3F0CA1DB4529E00796CF7 /* Share-35.png in Resources */,
 				3FC3F0C41DB4515E00796CF7 /* Add Folder-40.png in Resources */,
+				3F673F071DB67DA20073F0EC /* login-google.png in Resources */,
 				3FE632EB1DB3524400686293 /* user-photo.png in Resources */,
 				3FC3F0BA1DB44BF200796CF7 /* Add Folder-48.png in Resources */,
+				3F673F051DB671AD0073F0EC /* add-document.png in Resources */,
 				3FE632E31DB315E300686293 /* eureka.jpg in Resources */,
+				3F673F031DB670100073F0EC /* user_icon.png in Resources */,
 				3FC3F0C01DB44E0A00796CF7 /* Folder-96.png in Resources */,
 				3FC3F0AD1DB447FC00796CF7 /* Clouds-50.png in Resources */,
 				3FC3F0C11DB44E0A00796CF7 /* Open Folder-96.png in Resources */,
