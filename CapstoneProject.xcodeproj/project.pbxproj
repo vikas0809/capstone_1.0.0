@@ -20,6 +20,8 @@
 		3F673F051DB671AD0073F0EC /* add-document.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F673F041DB671AD0073F0EC /* add-document.png */; };
 		3F673F071DB67DA20073F0EC /* login-google.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F673F061DB67DA20073F0EC /* login-google.png */; };
 		3F673F091DB67EFD0073F0EC /* plain background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F673F081DB67EFD0073F0EC /* plain background.jpg */; };
+		3F673F0B1DB68F1D0073F0EC /* login translucent.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F673F0A1DB68F1D0073F0EC /* login translucent.png */; };
+		3F673F0D1DB692860073F0EC /* round login.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F673F0C1DB692860073F0EC /* round login.png */; };
 		3FC3F0A81DB4464200796CF7 /* Circled User Male Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0A71DB4464200796CF7 /* Circled User Male Filled-50.png */; };
 		3FC3F0AD1DB447FC00796CF7 /* Clouds-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0A91DB447FC00796CF7 /* Clouds-50.png */; };
 		3FC3F0AE1DB447FC00796CF7 /* Download From Cloud-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */; };
@@ -80,6 +82,8 @@
 		3F673F041DB671AD0073F0EC /* add-document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-document.png"; path = "images/add-document.png"; sourceTree = SOURCE_ROOT; };
 		3F673F061DB67DA20073F0EC /* login-google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login-google.png"; path = "images/login-google.png"; sourceTree = SOURCE_ROOT; };
 		3F673F081DB67EFD0073F0EC /* plain background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "plain background.jpg"; path = "images/plain background.jpg"; sourceTree = SOURCE_ROOT; };
+		3F673F0A1DB68F1D0073F0EC /* login translucent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login translucent.png"; path = "images/login translucent.png"; sourceTree = SOURCE_ROOT; };
+		3F673F0C1DB692860073F0EC /* round login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "round login.png"; path = "images/round login.png"; sourceTree = SOURCE_ROOT; };
 		3FC3F0A71DB4464200796CF7 /* Circled User Male Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Circled User Male Filled-50.png"; path = "../../../Downloads/Circled User Male Filled-50.png"; sourceTree = "<group>"; };
 		3FC3F0A91DB447FC00796CF7 /* Clouds-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Clouds-50.png"; path = "../../../Downloads/Clouds-50.png"; sourceTree = "<group>"; };
 		3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Download From Cloud-50.png"; path = "../../../Downloads/Download From Cloud-50.png"; sourceTree = "<group>"; };
@@ -168,11 +172,13 @@
 				3FC3F0C91DB4529E00796CF7 /* Share-35.png */,
 				3FC3F0C51DB4521600796CF7 /* Screenshot-40.png */,
 				3FC3F0C31DB4515E00796CF7 /* Add Folder-40.png */,
+				3F673F0A1DB68F1D0073F0EC /* login translucent.png */,
 				3F673F001DB66D6B0073F0EC /* notebook.png */,
 				3FC3F0BD1DB44E0A00796CF7 /* Folder-96.png */,
 				3F673F041DB671AD0073F0EC /* add-document.png */,
 				3FC3F0BE1DB44E0A00796CF7 /* Open Folder-96.png */,
 				3F673F021DB670100073F0EC /* user_icon.png */,
+				3F673F0C1DB692860073F0EC /* round login.png */,
 				3FC3F0BF1DB44E0A00796CF7 /* Pictures Folder-96.png */,
 				3FC3F0B71DB44BF200796CF7 /* Add Folder-48.png */,
 				3FC3F0B91DB44BF200796CF7 /* Add Folder-96.png */,
@@ -342,6 +348,8 @@
 				3FC3F0C11DB44E0A00796CF7 /* Open Folder-96.png in Resources */,
 				3FE632E41DB315E300686293 /* projectwrite.png in Resources */,
 				3FC3F0B01DB447FC00796CF7 /* Upload to Cloud-50.png in Resources */,
+				3F673F0B1DB68F1D0073F0EC /* login translucent.png in Resources */,
+				3F673F0D1DB692860073F0EC /* round login.png in Resources */,
 				3F29AED61DB014AA00FD906F /* Main.storyboard in Resources */,
 				3FE632E51DB315E300686293 /* writing-1.gif in Resources */,
 				3FE632E91DB32B3100686293 /* loginfb.png in Resources */,
