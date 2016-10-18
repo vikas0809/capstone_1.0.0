@@ -15,6 +15,7 @@
 		3F29AEDB1DB014AA00FD906F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F29AED91DB014AA00FD906F /* LaunchScreen.storyboard */; };
 		3F29AEE61DB014AA00FD906F /* CapstoneProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F29AEE51DB014AA00FD906F /* CapstoneProjectTests.m */; };
 		3F29AEF11DB014AB00FD906F /* CapstoneProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F29AEF01DB014AB00FD906F /* CapstoneProjectUITests.m */; };
+		3F673F011DB66D6B0073F0EC /* notebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F673F001DB66D6B0073F0EC /* notebook.png */; };
 		3FC3F0A81DB4464200796CF7 /* Circled User Male Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0A71DB4464200796CF7 /* Circled User Male Filled-50.png */; };
 		3FC3F0AD1DB447FC00796CF7 /* Clouds-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0A91DB447FC00796CF7 /* Clouds-50.png */; };
 		3FC3F0AE1DB447FC00796CF7 /* Download From Cloud-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */; };
@@ -70,6 +71,7 @@
 		3F29AEEC1DB014AA00FD906F /* CapstoneProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F29AEF01DB014AB00FD906F /* CapstoneProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapstoneProjectUITests.m; sourceTree = "<group>"; };
 		3F29AEF21DB014AB00FD906F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F673F001DB66D6B0073F0EC /* notebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notebook.png; path = images/notebook.png; sourceTree = SOURCE_ROOT; };
 		3FC3F0A71DB4464200796CF7 /* Circled User Male Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Circled User Male Filled-50.png"; path = "../../../Downloads/Circled User Male Filled-50.png"; sourceTree = "<group>"; };
 		3FC3F0A91DB447FC00796CF7 /* Clouds-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Clouds-50.png"; path = "../../../Downloads/Clouds-50.png"; sourceTree = "<group>"; };
 		3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Download From Cloud-50.png"; path = "../../../Downloads/Download From Cloud-50.png"; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				3FC3F0C91DB4529E00796CF7 /* Share-35.png */,
 				3FC3F0C51DB4521600796CF7 /* Screenshot-40.png */,
 				3FC3F0C31DB4515E00796CF7 /* Add Folder-40.png */,
+				3F673F001DB66D6B0073F0EC /* notebook.png */,
 				3FC3F0BD1DB44E0A00796CF7 /* Folder-96.png */,
 				3FC3F0BE1DB44E0A00796CF7 /* Open Folder-96.png */,
 				3FC3F0BF1DB44E0A00796CF7 /* Pictures Folder-96.png */,
@@ -304,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC3F0AF1DB447FC00796CF7 /* Settings Filled-50.png in Resources */,
+				3F673F011DB66D6B0073F0EC /* notebook.png in Resources */,
 				3FC3F0A81DB4464200796CF7 /* Circled User Male Filled-50.png in Resources */,
 				3F29AEDB1DB014AA00FD906F /* LaunchScreen.storyboard in Resources */,
 				3FC3F0AE1DB447FC00796CF7 /* Download From Cloud-50.png in Resources */,

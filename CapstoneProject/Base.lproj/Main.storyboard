@@ -344,14 +344,14 @@
                                 <frame key="frameInset" minY="28" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Documents" id="HUw-KA-yU0">
+                                    <navigationItem title="PicTer" id="HUw-KA-yU0">
                                         <barButtonItem key="leftBarButtonItem" image="Settings Filled-50.png" id="9kZ-fg-O6U">
                                             <connections>
                                                 <segue destination="UNC-km-R6B" kind="show" id="c19-rK-kfM"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" image="Circled User Male Filled-50.png" id="M1T-V6-Js9">
-                                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-5"/>
+                                            <inset key="imageInsets" minX="-13" minY="-1" maxX="9" maxY="-8"/>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -360,19 +360,19 @@
                                 <frame key="frameInset" minY="83" width="374" height="584"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Open Folder-96.png" translatesAutoresizingMaskIntoConstraints="NO" id="nBg-VF-a7U">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="notebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="nBg-VF-a7U">
                                         <rect key="frame" x="255" y="8" width="90" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Open Folder-96.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Du-Od-Tbl">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="notebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Du-Od-Tbl">
                                         <rect key="frame" x="24" y="132" width="90" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Open Folder-96.png" translatesAutoresizingMaskIntoConstraints="NO" id="OXP-c3-94f">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="notebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="OXP-c3-94f">
                                         <rect key="frame" x="255" y="132" width="90" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Open Folder-96.png" translatesAutoresizingMaskIntoConstraints="NO" id="bDK-Bi-Rtl">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="notebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="bDK-Bi-Rtl">
                                         <rect key="frame" x="142" y="132" width="90" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -380,7 +380,7 @@
                                         <rect key="frame" x="24" y="8" width="90" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pictures Folder-96.png" translatesAutoresizingMaskIntoConstraints="NO" id="79Q-u5-maQ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="notebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="79Q-u5-maQ">
                                         <rect key="frame" x="142" y="8" width="90" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -391,8 +391,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Screenshots" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEj-7p-1JO">
-                                        <rect key="frame" x="143" y="87" width="104" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="System Design" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEj-7p-1JO">
+                                        <rect key="frame" x="122" y="87" width="125" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -428,7 +428,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Sd-FC-3bN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-138" y="1967"/>
+            <point key="canvasLocation" x="-138.40000000000001" y="1966.8665667166417"/>
         </scene>
         <!--Title-->
         <scene sceneID="ErE-pR-hR8">
@@ -599,12 +599,11 @@
         <image name="Add Folder-48.png" width="48" height="48"/>
         <image name="Circled User Male Filled-50.png" width="50" height="50"/>
         <image name="Clouds-50.png" width="50" height="50"/>
-        <image name="Open Folder-96.png" width="96" height="96"/>
-        <image name="Pictures Folder-96.png" width="96" height="96"/>
         <image name="Screenshot-40.png" width="40" height="40"/>
         <image name="Settings Filled-50.png" width="50" height="50"/>
         <image name="Share-35.png" width="35" height="35"/>
         <image name="loginfb.png" width="713" height="151"/>
+        <image name="notebook.png" width="320" height="320"/>
         <image name="projectwrite.png" width="488" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
