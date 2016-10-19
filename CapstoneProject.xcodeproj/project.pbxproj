@@ -27,11 +27,6 @@
 		3FC3F0AE1DB447FC00796CF7 /* Download From Cloud-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */; };
 		3FC3F0AF1DB447FC00796CF7 /* Settings Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0AB1DB447FC00796CF7 /* Settings Filled-50.png */; };
 		3FC3F0B01DB447FC00796CF7 /* Upload to Cloud-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0AC1DB447FC00796CF7 /* Upload to Cloud-50.png */; };
-		3FC3F0BA1DB44BF200796CF7 /* Add Folder-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0B71DB44BF200796CF7 /* Add Folder-48.png */; };
-		3FC3F0BC1DB44BF200796CF7 /* Add Folder-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0B91DB44BF200796CF7 /* Add Folder-96.png */; };
-		3FC3F0C01DB44E0A00796CF7 /* Folder-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0BD1DB44E0A00796CF7 /* Folder-96.png */; };
-		3FC3F0C11DB44E0A00796CF7 /* Open Folder-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0BE1DB44E0A00796CF7 /* Open Folder-96.png */; };
-		3FC3F0C21DB44E0A00796CF7 /* Pictures Folder-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0BF1DB44E0A00796CF7 /* Pictures Folder-96.png */; };
 		3FC3F0C41DB4515E00796CF7 /* Add Folder-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0C31DB4515E00796CF7 /* Add Folder-40.png */; };
 		3FC3F0C71DB4521600796CF7 /* Screenshot-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0C51DB4521600796CF7 /* Screenshot-40.png */; };
 		3FC3F0CA1DB4529E00796CF7 /* Share-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3F0C91DB4529E00796CF7 /* Share-35.png */; };
@@ -89,11 +84,6 @@
 		3FC3F0AA1DB447FC00796CF7 /* Download From Cloud-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Download From Cloud-50.png"; path = "../../../Downloads/Download From Cloud-50.png"; sourceTree = "<group>"; };
 		3FC3F0AB1DB447FC00796CF7 /* Settings Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Settings Filled-50.png"; path = "../../../Downloads/Settings Filled-50.png"; sourceTree = "<group>"; };
 		3FC3F0AC1DB447FC00796CF7 /* Upload to Cloud-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Upload to Cloud-50.png"; path = "../../../Downloads/Upload to Cloud-50.png"; sourceTree = "<group>"; };
-		3FC3F0B71DB44BF200796CF7 /* Add Folder-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add Folder-48.png"; path = "../../../Downloads/Add Folder-48.png"; sourceTree = "<group>"; };
-		3FC3F0B91DB44BF200796CF7 /* Add Folder-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add Folder-96.png"; path = "../../../Downloads/Add Folder-96.png"; sourceTree = "<group>"; };
-		3FC3F0BD1DB44E0A00796CF7 /* Folder-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Folder-96.png"; path = "../../../Downloads/Folder-96.png"; sourceTree = "<group>"; };
-		3FC3F0BE1DB44E0A00796CF7 /* Open Folder-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Open Folder-96.png"; path = "../../../Downloads/Open Folder-96.png"; sourceTree = "<group>"; };
-		3FC3F0BF1DB44E0A00796CF7 /* Pictures Folder-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pictures Folder-96.png"; path = "../../../Downloads/Pictures Folder-96.png"; sourceTree = "<group>"; };
 		3FC3F0C31DB4515E00796CF7 /* Add Folder-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add Folder-40.png"; path = "../../../Downloads/Add Folder-40.png"; sourceTree = "<group>"; };
 		3FC3F0C51DB4521600796CF7 /* Screenshot-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot-40.png"; path = "../../../Downloads/Screenshot-40.png"; sourceTree = "<group>"; };
 		3FC3F0C91DB4529E00796CF7 /* Share-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Share-35.png"; path = "../../../Downloads/Share-35.png"; sourceTree = "<group>"; };
@@ -174,14 +164,9 @@
 				3FC3F0C31DB4515E00796CF7 /* Add Folder-40.png */,
 				3F673F0A1DB68F1D0073F0EC /* login translucent.png */,
 				3F673F001DB66D6B0073F0EC /* notebook.png */,
-				3FC3F0BD1DB44E0A00796CF7 /* Folder-96.png */,
 				3F673F041DB671AD0073F0EC /* add-document.png */,
-				3FC3F0BE1DB44E0A00796CF7 /* Open Folder-96.png */,
 				3F673F021DB670100073F0EC /* user_icon.png */,
 				3F673F0C1DB692860073F0EC /* round login.png */,
-				3FC3F0BF1DB44E0A00796CF7 /* Pictures Folder-96.png */,
-				3FC3F0B71DB44BF200796CF7 /* Add Folder-48.png */,
-				3FC3F0B91DB44BF200796CF7 /* Add Folder-96.png */,
 				3FC3F0A91DB447FC00796CF7 /* Clouds-50.png */,
 				3F673F061DB67DA20073F0EC /* login-google.png */,
 				3F673F081DB67EFD0073F0EC /* plain background.jpg */,
@@ -330,8 +315,6 @@
 				3F29AEDB1DB014AA00FD906F /* LaunchScreen.storyboard in Resources */,
 				3FC3F0AE1DB447FC00796CF7 /* Download From Cloud-50.png in Resources */,
 				3FE632E71DB3240B00686293 /* facebook-sign-in-button-png-26.png in Resources */,
-				3FC3F0BC1DB44BF200796CF7 /* Add Folder-96.png in Resources */,
-				3FC3F0C21DB44E0A00796CF7 /* Pictures Folder-96.png in Resources */,
 				3FC3F0C71DB4521600796CF7 /* Screenshot-40.png in Resources */,
 				3F673F091DB67EFD0073F0EC /* plain background.jpg in Resources */,
 				3F29AED81DB014AA00FD906F /* Assets.xcassets in Resources */,
@@ -339,13 +322,10 @@
 				3FC3F0C41DB4515E00796CF7 /* Add Folder-40.png in Resources */,
 				3F673F071DB67DA20073F0EC /* login-google.png in Resources */,
 				3FE632EB1DB3524400686293 /* user-photo.png in Resources */,
-				3FC3F0BA1DB44BF200796CF7 /* Add Folder-48.png in Resources */,
 				3F673F051DB671AD0073F0EC /* add-document.png in Resources */,
 				3FE632E31DB315E300686293 /* eureka.jpg in Resources */,
 				3F673F031DB670100073F0EC /* user_icon.png in Resources */,
-				3FC3F0C01DB44E0A00796CF7 /* Folder-96.png in Resources */,
 				3FC3F0AD1DB447FC00796CF7 /* Clouds-50.png in Resources */,
-				3FC3F0C11DB44E0A00796CF7 /* Open Folder-96.png in Resources */,
 				3FE632E41DB315E300686293 /* projectwrite.png in Resources */,
 				3FC3F0B01DB447FC00796CF7 /* Upload to Cloud-50.png in Resources */,
 				3F673F0B1DB68F1D0073F0EC /* login translucent.png in Resources */,
