@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import "documentTabControllerViewController.h"
 
 @interface ViewController : UIViewController <UITabBarDelegate>
 
@@ -21,6 +23,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *emailField;
 
 @property (weak, nonatomic) IBOutlet UITextField *passwordField;
+
 
 
 @end

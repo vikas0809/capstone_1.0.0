@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,10 +17,43 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//  AppDelegate.m
+
+- (BOOL)application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    [[FBSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions];
+    // Add any custom logic here.
+    
+    if ([FBSDKAccessToken currentAccessToken]) {
+        // User is logged in, do work such as go to next view controller.
+        NSLog(@"Already logged");
+        
+        //redirect to app homepage
+        UIStoryboard *storyboard = self.window.rootViewController.storyboard;
+        UITabBarController *rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"tabControllers"];
+        self.window.rootViewController = rootViewController;
+        [self.window makeKeyAndVisible];
+        
+    }
+    
     return YES;
 }
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
+    BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                                  openURL:url
+                                                        sourceApplication:sourceApplication
+                                                               annotation:annotation
+                    ];
+    // Add any custom logic here.
+    return handled;
+} 
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -40,6 +75,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [FBSDKAppEvents activateApp];
 }
 
 

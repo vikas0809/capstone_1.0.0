@@ -6,10 +6,81 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Profile View Controller-->
+        <scene sceneID="PFT-7x-yew">
+            <objects>
+                <viewController id="U9I-bQ-I4v" customClass="ProfileViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vjZ-6j-SKU"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Lv-AZ-R6b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4kX-BC-owa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="default-user.png" translatesAutoresizingMaskIntoConstraints="NO" id="xlU-Kw-wQ8">
+                                <frame key="frameInset" minX="37" minY="45" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGB-AE-Ad4">
+                                <frame key="frameInset" minX="37" minY="507" width="300" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="doLogout:" destination="U9I-bQ-I4v" eventType="touchUpInside" id="W0Q-v1-XrX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NAME :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fPi-HV-atH">
+                                <frame key="frameInset" minX="37" minY="386" width="72" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Rz-T2-g6B">
+                                <frame key="frameInset" minX="117" minY="437" width="220" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EMAIL :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nv-wa-WuD">
+                                <frame key="frameInset" minX="37" minY="437" width="72" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcX-j3-X33">
+                                <frame key="frameInset" minX="117" minY="386" width="220" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="email" destination="2Rz-T2-g6B" id="B2h-aC-amW"/>
+                        <outlet property="fullName" destination="AcX-j3-X33" id="7ea-Mt-7Ci"/>
+                        <outlet property="logout" destination="iGB-AE-Ad4" id="bqG-nr-2N3"/>
+                        <outlet property="profilePic" destination="xlU-Kw-wQ8" id="oJu-Yn-6rN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zZ5-DV-FKL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2565.5999999999999" y="720.08995502248877"/>
+        </scene>
+        <!--loginPage-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController autoresizesArchivedViewToFullSize="NO" modalPresentationStyle="pageSheet" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginMain" autoresizesArchivedViewToFullSize="NO" title="loginPage" modalPresentationStyle="pageSheet" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bs3-hm-tfZ"/>
                         <viewControllerLayoutGuide type="bottom" id="4aE-nQ-3O7"/>
@@ -74,6 +145,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="0.65000000000000002" width="1" height="1"/>
                                 <state key="normal" image="loginfb.png"/>
+                                <connections>
+                                    <action selector="facebookLoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ehe-uq-CUI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="955-kN-6Lq">
                                 <frame key="frameInset" minX="99" minY="564" width="177" height="56"/>
@@ -194,6 +268,9 @@
                                         <state key="normal" title="Register">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="vGD-Bg-ymm" kind="show" id="hhp-MQ-gQr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -291,6 +368,9 @@
                                         <barButtonItem key="leftBarButtonItem" image="Settings Filled-50.png" id="DKS-TU-ydl"/>
                                         <barButtonItem key="rightBarButtonItem" image="Circled User Male Filled-50.png" id="nRw-tL-Da0">
                                             <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-5"/>
+                                            <connections>
+                                                <segue destination="U9I-bQ-I4v" kind="presentation" id="Ll0-Qf-7Sj"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -307,12 +387,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y63-Yo-JEx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1706" y="156"/>
+            <point key="canvasLocation" x="1706" y="162"/>
         </scene>
-        <!--documentsTab-->
+        <!--newdDocumentsTab-->
         <scene sceneID="pUg-7J-gZa">
             <objects>
-                <viewController title="documentsTab" id="LAS-yd-7Jf" sceneMemberID="viewController">
+                <viewController title="newdDocumentsTab" id="LAS-yd-7Jf" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="f7H-aS-mWH"/>
                         <viewControllerLayoutGuide type="bottom" id="App-q5-Xaf"/>
@@ -320,18 +400,24 @@
                     <view key="view" contentMode="scaleToFill" id="mPC-WY-CUz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aa0-5v-G5v">
+                                <frame key="frameInset" minX="16" minY="28" width="343" height="582"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="New Document" image="Screenshot-40.png" id="tFQ-xI-tDm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2k-6x-Jc2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="662" y="1649"/>
+            <point key="canvasLocation" x="661.60000000000002" y="1648.4257871064469"/>
         </scene>
-        <!--cameraTab-->
+        <!--documentsTab-->
         <scene sceneID="O6A-KH-pTI">
             <objects>
-                <viewController title="cameraTab" id="C1k-2P-y0g" sceneMemberID="viewController">
+                <viewController title="documentsTab" id="C1k-2P-y0g" customClass="documentTabControllerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qCB-TE-teU"/>
                         <viewControllerLayoutGuide type="bottom" id="dZ1-YX-jwc"/>
@@ -348,6 +434,9 @@
                                         <barButtonItem key="leftBarButtonItem" image="Settings Filled-50.png" id="9kZ-fg-O6U"/>
                                         <barButtonItem key="rightBarButtonItem" image="Circled User Male Filled-50.png" id="M1T-V6-Js9">
                                             <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-5"/>
+                                            <connections>
+                                                <segue destination="U9I-bQ-I4v" kind="presentation" id="ubw-wC-RkL"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -426,10 +515,10 @@
             </objects>
             <point key="canvasLocation" x="-92" y="1648"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--tabControllers-->
         <scene sceneID="UsC-8X-y4X">
             <objects>
-                <tabBarController id="vGD-Bg-ymm" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabControllers" title="tabControllers" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vGD-Bg-ymm" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="zs5-BF-63T">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -482,6 +571,9 @@
                                         <barButtonItem key="leftBarButtonItem" image="Settings Filled-50.png" id="YvE-sI-SB6"/>
                                         <barButtonItem key="rightBarButtonItem" image="Circled User Male Filled-50.png" id="Gem-aZ-9hd">
                                             <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-5"/>
+                                            <connections>
+                                                <segue destination="U9I-bQ-I4v" kind="presentation" id="vDE-3R-Iie"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -509,7 +601,12 @@
         <image name="Screenshot-40.png" width="40" height="40"/>
         <image name="Settings Filled-50.png" width="50" height="50"/>
         <image name="Share-35.png" width="35" height="35"/>
+        <image name="default-user.png" width="502" height="502"/>
         <image name="loginfb.png" width="713" height="151"/>
         <image name="projectwrite.png" width="488" height="225"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="BMg-z5-wkQ"/>
+        <segue reference="vDE-3R-Iie"/>
+    </inferredMetricsTieBreakers>
 </document>
